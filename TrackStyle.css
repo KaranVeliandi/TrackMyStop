@@ -1,0 +1,123 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: silver;
+    color: #0468ab;
+    z-index: 9999;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+color: #0468ab !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: silver !important;
+background-color: #0468ab !important;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #0468ab !important;
+}
+img {
+display: block;
+margin: auto;
+}
+.jumbotron {
+background-color: white;
+color: #0468ab;
+padding: 100px 25px;
+}
+.bg-silver {
+background-color: silver;
+color: black;
+}
+.bg-white {
+background-color: white;
+color: black;
+}
+.container-fluid {
+padding: 60px 50px;
+}
+/* Add #0468ab color to all icons and set the font-size */
+.logo-small {
+color: #0468ab;
+font-size: 50px;
+}
+
+.logo {
+color: #0468ab;
+font-size: 200px;
+}
+.carousel-control.right, .carousel-control.left {
+background-image: none;
+color: #0468ab;
+}
+.carousel-indicators li {
+border-color: #0468ab;
+}
+.carousel-indicators li.active {
+background-color: #0468ab;
+}
+.screenshot {
+padding: 0 0 15px 0;
+border: none;
+border-radius: 0;
+}
+.screenshot img {
+border: 2px solid #0468ab;
+max-width: 300px;
+margin-bottom: 50px;
+}
+.panel {
+border: 1px solid #0468ab;
+border-radius:0;
+transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+border: 1px solid #0468ab;
+background-color: #fff !important;
+color: #0468ab;
+}
+
+.panel-heading {
+color: #fff !important;
+background-color: #0468ab !important;
+padding: 25px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+background-color: #fff !important;
+}
+
+.panel-footer h3 {
+font-size: 32px;
+}
+
+.panel-footer h4 {
+color: #aaa;
+font-size: 14px;
+}
+
+.panel-footer .btn, disabled {
+margin: 15px 0;
+background-color: #0468ab;
+color: #fff;
+}
+@media screen and (max-width: 768px) {
+.col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+}
+}
